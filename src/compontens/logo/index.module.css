@@ -1,0 +1,9 @@
+.logo {
+    color: #fff;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+.logo:hover {
+    color: #fff;
+    opacity: 0.75;
+}

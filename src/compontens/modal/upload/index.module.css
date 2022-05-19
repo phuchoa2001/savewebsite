@@ -1,0 +1,30 @@
+.boxInput {
+    width: 100%;
+    margin-top: 10px;
+}
+.input {
+    position: fixed;
+    width: 100%;
+    height: 440px;
+    opacity: 0;
+}
+.holder {
+    height: 440px;
+    width: 100%;
+    background-color: #e4ebf1;
+}
+.header {
+    margin-top: 137px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.icon {
+    font-size: 80px;
+}
+.heading {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}

@@ -1,0 +1,80 @@
+.card {
+    width: 90%;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-top: 10px;
+}
+.wrap {
+    padding: 20px;
+}
+.Name {
+    width: 50%;
+    max-width: 50%;
+    font-weight: bold;
+    max-height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.Nametext {
+    width: 100%;
+}
+.Cardheader {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.barCard {
+    display: flex;
+}
+.Boxicon {
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.Boxicon:hover {
+    opacity: 0.75;  
+}
+.icon {
+    font-size: 20px;
+}
+.Cardcontent {
+    margin-top: 10px;
+    display: flex;
+}
+.text {
+    width: 90%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    min-height: 50px;
+    height: 48px;
+}
+.iconConText {
+    cursor: pointer;
+    font-size: 20px;
+    display: block;
+    color: #333;
+}
+.iconConText:hover {
+    opacity: 0.75;
+}
+@media only screen and (max-width: 539px) {
+    /* PC Điện thoại nhỏ hơn 539px */
+    .card {
+        width: 99%;
+        margin: 10px 0px;
+    }
+}
+@media only screen and (min-width: 540px) and (max-width: 719px) {
+    /* Điện thoại màn hình lớn thua IPAD */
+    .card {
+        width: 99%;
+        margin: 10px 0px;
+    }
+}

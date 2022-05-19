@@ -1,0 +1,50 @@
+.Header {
+    background: #24292f;
+    height: 72px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.bar {
+    color: #fff;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+.wrap {
+    height: 100%;
+    margin: 0px 121px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bar {
+    display: flex;
+    margin-right: 30px;
+}
+.input {
+    color: #57606a;
+    padding: 8px 8px;
+    padding-right: 50px;
+    border: 1px solid #57606a;
+    outline: none;
+    background: none;
+    border-radius: 5px;
+}
+.event {
+    background: #fff;
+}
+.boxIcon {
+    margin: 0px 15px;
+    display: flex;
+    align-items: center;
+}
+.boxIcon:hover {
+    opacity: 0.75;
+}
+.icon {
+    font-size: 25px;
+}
+@media only screen and (max-width: 959px) {
+    .Header {
+        display: none;
+    }
+}

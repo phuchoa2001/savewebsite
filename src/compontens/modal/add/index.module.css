@@ -1,0 +1,33 @@
+.form {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+.item {
+    width: 100%;
+    margin: 10px 0px;
+}
+.input {
+    width: calc(100% - 3px);
+    padding-left: 3px;
+    height: 40px;
+    border-radius: 3px;
+    background: #fff;
+    border: 1px solid #57606a;
+    font-size: 18px;
+}
+.content {
+    display: block;
+    margin-bottom: 10px;
+}
+.textarea {
+    width: calc(100% - 3px);
+    border: 1px solid #57606a;
+    padding-left: 3px;
+    border-radius: 3px;
+    height: 100px;
+}
+.action {
+    display: flex;
+    justify-content: flex-end;
+}
